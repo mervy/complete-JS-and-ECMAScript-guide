@@ -104,6 +104,7 @@ let temIdadeParaVotar = idade >= 16 && idade <= 120; // O valor de 'temIdadePara
 ```
 
 8. Expressão de chamada de função com argumentos:
+
 ```javascript
 function soma(a, b) {
   return a + b;
@@ -119,6 +120,7 @@ Lembre-se de que as expressões são fundamentais em JavaScript, pois são usada
 Em JavaScript, existem diversos tipos de dados que você pode utilizar para armazenar e manipular informações. Aqui estão os principais tipos de dados:
 
 1. **Number (Número)**: Representa valores numéricos, inteiros ou de ponto flutuante.
+
 ```javascript
 let idade = 25;
 let preco = 49.99;
