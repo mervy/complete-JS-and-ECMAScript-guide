@@ -514,6 +514,7 @@ console.log(`Primeira linha\nSegunda linha`);
 
 5. **Chamada de Função**:
 Você também pode chamar funções dentro de um template literal:
+
 ```javascript
 function calcularTotal(preco, quantidade) {
   return preco * quantidade;
@@ -526,6 +527,7 @@ let mensagem = `O total é: ${calcularTotal(precoUnitario, quantidade)}`;
 
 6. **Tagged Templates**:
 É possível usar uma função como "tag" para um template literal. Isso permite que você manipule as partes da string antes que ela seja criada.
+
 ```javascript
 function customTag(strings, ...values) {
   let resultado = "";
