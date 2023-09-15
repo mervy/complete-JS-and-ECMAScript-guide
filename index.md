@@ -1210,13 +1210,7 @@ let textoConvertido = String(texto); // Convertendo para string
 
 Conhecer esses operadores é fundamental para escrever código eficiente e preciso em JavaScript. Além disso, entender como ocorre a conversão de tipos é importante para evitar erros inesperados e garantir que suas operações funcionem conforme o esperado.
 
-Trabalhando com arrays
-Map
-Filter
-Reduce
-Sort
-Splice
-Shuffle
+**Trabalhando com arrays: Map, Filter, Reduce, Sort, Splice, Shuffle**
 
 Vou explicar cada um desses conceitos relacionados ao trabalho com arrays em JavaScript:
 
@@ -1257,6 +1251,7 @@ frutas.splice(1, 1, "uva"); // Remove a "banana" e adiciona "uva"
 
 **Shuffle**:
 - "Shuffle" se refere a embaralhar aleatoriamente os elementos de um array. Não é um método nativo, mas você pode implementá-lo criando sua própria função de embaralhamento.
+
 ```javascript
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
